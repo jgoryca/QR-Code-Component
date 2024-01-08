@@ -9,12 +9,6 @@
 Default: 400
 Bold: 700
 
-- LINE HIGHTS
-Default: 1 
-Small: 1.05
-Medium: 1.2
-Paragraph default: 1.6
-
 --- 02 COLORS
 
 - White: hsl(0, 0%, 100%)
@@ -44,9 +38,9 @@ body {
   background-color: hsl(212, 45%, 89%);
 }
 
-.container {
+main {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   align-items: center;
 }
